@@ -571,6 +571,8 @@ void QServiceDiscovery::updateServices()
         }
         removeServiceType(i.key());
     }
+
+    updateAllServiceTypes();
 }
 
 void QServiceDiscovery::updateFilter()
